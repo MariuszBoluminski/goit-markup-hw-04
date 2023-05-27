@@ -217,13 +217,13 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
-.web-content .our-profile .detail .iconBox {
+.web-content .our-profile .detail .iconbox {
   display: flex;
   width: 270px;
   height: 120px;
   background: var(--bg-color-2);
   border-radius: 4px;
-
+  margin-bottom: 30px;
   justify-content: center;
   align-items: center;
 }
@@ -609,4 +609,10 @@ ul {
 
   width: 20px;
   height: 20px;
+}
+
+.svg-top-envelope,
+.svg-top-smartphone {
+  display: inline-flex;
+  margin-right: 10px;
 }
