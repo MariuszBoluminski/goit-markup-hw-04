@@ -496,6 +496,12 @@ ul {
   display: block;
 }
 
+.photo:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .web-content .portfolio .label .details .detail .name {
   font-weight: 700;
   font-size: 18px;
@@ -564,6 +570,12 @@ ul {
   background-color: #2f303a;
   height: 252px;
   margin: auto;
+}
+
+.footer .footer-informations {
+  display: flex;
+  justify-content: start;
+  align-items: left;
 }
 
 .footer .footer-informations .contact-us .main-logo {
@@ -636,7 +648,7 @@ ul {
   letter-spacing: 0.03em;
 
   text-transform: uppercase;
-  color: var(--fill);
+  color: #fff;
   margin: 0;
   padding-bottom: 20px;
 }
@@ -669,11 +681,14 @@ ul {
   background: var(--top-hover-focus);
 }
 
-.footer .footer-informations .socialMedia {
-  fill: var(--fill);
+.media-details {
+  display: inline-flex;
+  text-decoration: none;
 
-  width: 20px;
-  height: 20px;
+  fill: #fff;
+
+  justify-content: center;
+  align-items: center;
 }
 
 .svg-top-envelope,
