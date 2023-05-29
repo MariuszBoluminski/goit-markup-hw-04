@@ -107,14 +107,12 @@
   color: var(--top-hover-focus);
 }
 
-.top-icon
-{
-    fill: var(--top-contact-us);
+.top-icon {
+  fill: var(--top-contact-us);
 }
 
 .top-icon :focus,
-.top-icon :hover 
-{ 
+.top-icon :hover {
   fill: var(--top-hover-focus);
 }
 
@@ -156,18 +154,18 @@ ul {
   background: var(--body-color);
 }
 
-#switch
-{
-    display: block;
-    background-color: #2F303A;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)),
-        url(/images/people_squoosh.jpg);
-    background-size: auto;
+#switch {
+  display: block;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("/images/people_squoosh.jpg");
+  background-size: auto;
 
-    width: 100%;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
-    
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .web-content .switch:after {
@@ -357,7 +355,7 @@ ul {
 
 .web-content .our-team .socialMedia .details {
   list-style: none;
-  margin:  0;
+  margin: 0;
   padding: 0 32px 18px 32px;
 }
 
@@ -556,8 +554,7 @@ ul {
 }
 
 .web-content .our-clients .details .detail .link:hover,
-.web-content .our-clients .details .detail .link:focus 
-{
+.web-content .our-clients .details .detail .link:focus {
   border: 1px solid #2196f3;
   fill: #2196f3;
   transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
