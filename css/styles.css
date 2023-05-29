@@ -107,6 +107,17 @@
   color: var(--top-hover-focus);
 }
 
+.top-icon
+{
+    fill: var(--top-contact-us);
+}
+
+.top-icon :focus,
+.top-icon :hover 
+{ 
+  fill: var(--top-hover-focus);
+}
+
 *,
 *:before,
 *:after {
@@ -332,19 +343,18 @@ ul {
 
 .web-content .our-team .socialMedia .details {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin:  0;
+  padding: 0 32px 18px 32px;
 }
 
 .web-content .our-team .socialMedia .details .detail {
   display: inline-flex;
+  justify-content: center;
   fill: #afb1b8;
 
   width: 40px;
   height: 40px;
-  margin: 0 10px;
 
-  justify-content: center;
   align-items: center;
 }
 
